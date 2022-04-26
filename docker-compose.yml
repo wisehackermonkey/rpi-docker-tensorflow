@@ -5,3 +5,5 @@ services:
     network_mode: host
     restart: always
     privileged: true
+    ports:
+      - "8888:8888"
