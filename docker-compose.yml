@@ -1,0 +1,8 @@
+version: "2"
+services:
+  camera:
+     container_name: camera 
+     image: ./build-tensor-pi/Dockerfile.template
+     network_mode: host
+     restart: always
+     privileged: true
